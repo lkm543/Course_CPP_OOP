@@ -22,7 +22,7 @@
     <li class='tab' data-tabid="HW4"><a href="#HW4">Homework 4</a></li>
 
 	<li class='tab' data-tabid="Chapter08"><a href="#Chapter08">Chapter 08 命名空間(namespace)</a></li>
-	<li class='tab' data-tabid="Chapter09"><a href="#Chapter09">Chapter 09 動態與靜態連結</a></li>
+	<li class='tab' data-tabid="Chapter09"><a href="#Chapter09">Chapter 09 動態連結函式庫</a></li>
     <li class='tab' data-tabid="HW5"><a href="#HW5">Homework 5</a></li>
 
 	<li class='tab' data-tabid="Chapter10"><a href="#Chapter10">Chapter 10 物件導向與例外處理</a></li>
