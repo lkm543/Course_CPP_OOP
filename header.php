@@ -12,7 +12,7 @@
         <li class='tab' data-tabid="Homework"><a href="#Homework">HomeWork</a></li>
         <li class='tab' data-tabid="Resources"><a href="#Resources">Resources</a></li>
         <li class='tab' data-tabid="Contact"><a href="#Contact">Contact Me</a></li>
-        <li><a href="/Course/Cpp_OOP/Download/">Download</a></li>
+        <li><a href="/Cpp_OOP/Download/">Download</a></li>
       </ul>
     </div>
     <div class="clr"></div>
