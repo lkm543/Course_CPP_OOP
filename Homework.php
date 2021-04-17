@@ -14,7 +14,7 @@ $_SESSION['Uploaded']='Nothing';
 <div class="form-group">
     <form action="UploadHW.php" method="post" enctype="multipart/form-data">
         <label>您的姓名：</label>
-        <input type="text" name="name" class="form-control" placeholder="姓名" maxlength="5">
+        <input type="text" name="name" class="form-control is-invalid" placeholder="姓名" maxlength="5" required>
         
         <label>作業幾：</label>
         <select id="inputState" class="form-control" name="HW">
@@ -23,9 +23,6 @@ $_SESSION['Uploaded']='Nothing';
             <option value="HW3">作業3</option>
             <option value="HW4">作業4</option>
             <option value="HW5">作業5</option>
-            <option value="HW6">作業6</option>
-            <option value="HW7">作業7</option>
-            <option value="HW8">作業8</option>
         </select>
         </br>
         <label>作業檔案(請上傳.cpp或壓縮成一個檔案)：</label>
@@ -39,7 +36,7 @@ $_SESSION['Uploaded']='Nothing';
 <?php
 function print_hw_table($hw, $limit) {
     global $db;
-    echo "<h4>作業".$hw."繳交情形：</h4>";
+    echo "<h4>作業".$hw."繳交情形(最近五筆)：</h4>";
     $sql = "SELECT * FROM HW".$hw." ORDER BY UploadDate DESC LIMIT ".$limit ;
     $result = $db->query($sql);
     echo "<div class=\"table-responsive\">";
@@ -73,7 +70,7 @@ function print_hw_table($hw, $limit) {
 include 'dbinfo.php';
 $dbconnect = "mysql:host=".$servername.";dbname=".$dbname;
 $db = new PDO($dbconnect, $username, $password);
-for ($i = 1; $i <= 8; $i++) {
+for ($i = 1; $i <= 5; $i++) {
     print_hw_table($i, 5);
 }
 ?>
