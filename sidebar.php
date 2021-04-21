@@ -7,10 +7,10 @@
 <ul class="sb_menu etabs">
 	<li class='tab' data-tabid="Chapter01"><a href="#Chapter01">Chapter 01 物件導向概論</a></li>
 	<li class='tab' data-tabid="Chapter02"><a href="#Chapter02">Chapter 02 類別的權限管理</a></li>
-	<li class='tab' data-tabid="Chapter03"><a href="#Chapter03">Chapter 03 類別間的繼承與複寫</a></li>
+	<li class='tab' data-tabid="Chapter03"><a href="#Chapter03">Chapter 03 類別間的繼承與覆寫</a></li>
 	<li class='tab' data-tabid="Chapter04"><a href="#Chapter04">Chapter 04 虛擬、抽象與多型</a></li>
-	<li class='tab' data-tabid="Chapter05"><a href="#Chapter05">Chapter 05 函式模板與類別模板(Template)</a></li>
-	<li class='tab' data-tabid="Chapter06"><a href="#Chapter06">Chapter 06 類別補充</a></li>
+	<li class='tab' data-tabid="Chapter05"><a href="#Chapter05">Chapter 05 類別補充</a></li>
+	<li class='tab' data-tabid="Chapter06"><a href="#Chapter06">Chapter 06 函式模板與類別模板</a></li>
 	<li class='tab' data-tabid="Chapter07"><a href="#Chapter07">Chapter 07 設計模式初探</a></li>
 	<li class='tab' data-tabid="Chapter08"><a href="#Chapter08">Chapter 08 設計模式─簡單工廠模式</a></li>
 	<li class='tab' data-tabid="Chapter09"><a href="#Chapter09">Chapter 09 設計模式─策略模式</a></li>
